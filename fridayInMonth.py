@@ -19,9 +19,9 @@ class FridaysInMonth:
             
         return fridays[2]
     
-    def printFridayInMonth(self):
+    def print_friday_in_month(self):
         friday = self.get_third_friday()
         print(f"Your Expiry Date of {self.month_name} is: {friday}")
 
-fridaysInSep = FridaysInMonth()
-fridaysInSep.printFridayInMonth()
+fridays_in_month  = FridaysInMonth()
+fridays_in_month.printFridayInMonth()
